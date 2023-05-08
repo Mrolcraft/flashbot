@@ -1,9 +1,9 @@
-module github.com/cryptoriums/flashbot
+module github.com/Mrolcraft/flashbot
 
 go 1.18
 
 require (
-	github.com/cryptoriums/packages v0.0.0-20220602100559-f17e96a13f42
+	github.com/Mrolcraft/packages v0.0.0-20220602100559-f17e96a13f42
 	github.com/ethereum/go-ethereum v1.10.19-0.20220526072637-0287e1a7c00c
 	github.com/go-kit/log v0.2.0
 	github.com/pkg/errors v0.9.1

@@ -573,6 +573,8 @@ func relayURLDefault(netID int64) (string, error) {
 	switch netID {
 	case 1:
 		return "https://relay.flashbots.net", nil
+	case 137:
+		return "https://bor.txrelay.marlin.org", nil	
 	case 5:
 		return "https://relay-goerli.flashbots.net", nil
 	default:
